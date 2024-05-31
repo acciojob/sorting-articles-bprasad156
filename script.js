@@ -4,7 +4,7 @@ const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'N
 // xyx ram apple 
 
 function removeChar(str){
-    str = " "+ str + " "
+    str =str + " "
     str = str.toLowerCase()
     str = str.replaceAll(" the "," ")
     str = str.replaceAll(" a "," ")
